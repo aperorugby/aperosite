@@ -45,4 +45,4 @@ Lancer le serveur local de Django
     
 Visiter le site en local
 * Lancer un navigateur
-* Aller à l'URL : http://127.0.0.0:8000
+* Aller à l'URL : http://127.0.0.1:8000
