@@ -1,1 +1,11 @@
 venv
+
+# binaires
+*.pyc
+*.pyo
+
+# Fichier temporaires:
+.*.swp
+*~
+\#*#
+# src/*
