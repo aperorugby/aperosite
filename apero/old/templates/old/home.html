@@ -1,0 +1,381 @@
+{% load staticfiles %}
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <title>Ap&eacute;ro Rugby - le club qu'il vous faut!</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+    <meta name="" content="rugby, outremont, quebec, aperorugby, club rugby">
+    <meta name="keywords" content="rugby, outremont, montreal">
+    <meta name="keywords" content="rugby outremont equipe">
+    <meta name="description" content="Equipe rugby outremont">
+    <link rel="icon" type="image/png" href="{% static "old/favicon.png">
+    <script language="JavaScript" type="text/JavaScript">
+      <!--
+      function MM_preloadImages() { //v3.0
+        var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+          var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+          if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+      }
+
+      function MM_swapImgRestore() { //v3.0
+        var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+      }
+
+      function MM_findObj(n, d) { //v4.01
+        var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+          d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+        if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+        for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+        if(!x && d.getElementById) x=d.getElementById(n); return x;
+      }
+
+      function MM_swapImage() { //v3.0
+        var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+         if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+      }
+      //-->
+    </script>
+    <script language="JavaScript" type="text/JavaScript">
+      <!--
+      function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+        if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+          document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+        else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+      }
+      MM_reloadPage(true);
+      //-->
+    </script>
+    <style type="text/css">
+      <!--
+      body,td,th {
+	      color: #F00;
+	      font-family: Georgia, Times New Roman, Times, serif;
+	      font-size: 18px;
+      }
+      a:link {
+	      color: #F00;
+      }
+      -->
+    </style>
+  </head>
+  <body 
+    background="{% static "old/fond.jpg" %}" 
+    link="#FF0000" 
+    leftmargin="0" 
+    topmargin="0" 
+    onLoad="MM_preloadImages(
+        '{% static "old/cup_on.jpg" %}',
+        '{% static "old/bull_on.gif" %}',
+        '{% static "old/pho_on.gif" %}',
+        '{% static "old/arch_on.gif" %}',
+        '{% static "old/vid_on.gif" %}',
+        '{% static "old/jou_on.gif" %}'
+    )" 
+    onclick="MM_preloadImages(
+        '{% static "old/jou_on.gif" %}',
+        '{% static "old/pho_on.gif" %}',
+        '{% static "old/arch_on.gif" %}',
+        '{% static "old/vid_on.gif" %}',
+        '{% static "old/bull_on.gif" %}',
+        '{% static "old/bp_inscription_on.jpg" %}'
+    )"
+  >
+  
+    <table width="1%" height="174" border="0" align="center" cellpadding="00" cellspacing="0">
+      <tr> 
+        <td height="141" align="center" valign="middle">
+          <img src="{% static "old/a1.gif" %}" width="875" height="141">
+        </td>
+      </tr>
+      <tr> 
+        <td height="33" align="center" valign="middle">
+          <table width="31%" height="33" border="0" cellpadding="00" cellspacing="0">
+            <tr align="center" valign="top"> 
+              <td height="33">
+                <a href="index.htm">
+                  <img src="{% static "old/accueil.gif" %}" width="191" height="33" border="0">
+                </a>
+              </td>
+              <td>
+                <a href="nouvelles.htm">
+                  <img src="{% static "old/bull_of.gif" %}" name="Image1" width="127" height="33" border="0" id="Image1" onMouseOver="MM_swapImage('Image1','','gif/bkg/btn/bull_on.gif',1)" onMouseOut="MM_swapImgRestore()">
+                </a>
+              </td>
+              <td>
+                <a href="joueurs.htm">
+                  <img src="{% static "old/jou_off.gif" %}" name="Image2" width="134" height="33" border="0" id="Image2" onMouseOver="MM_swapImage('Image2','','gif/bkg/btn/jou_on.gif',1)" onMouseOut="MM_swapImgRestore()">
+                </a>
+              </td>
+              <td>
+                <a href="photos.htm">
+                  <img src="{% static "old/pho_of.gif" %}" name="Image3" width="130" height="33" border="0" id="Image3" onMouseOver="MM_swapImage('Image3','','gif/bkg/btn/pho_on.gif',1)" onMouseOut="MM_swapImgRestore()">
+                </a>
+              </td>
+              <td>
+                <a href="archives.htm">
+                  <img src="{% static "old/arch_of.gif" %}" name="Image4" width="133" height="33" border="0" id="Image4" onMouseOver="MM_swapImage('Image4','','gif/bkg/btn/arch_on.gif',1)" onMouseOut="MM_swapImgRestore()">
+                </a>
+              </td>
+              <td>
+                <a href="videos.htm">
+                  <img src="{% static "old/vid_of.gif" %}" name="Image5" width="135" height="33" border="0" id="Image5" onMouseOver="MM_swapImage('Image5','','gif/bkg/btn/vid_on.gif',1)" onMouseOut="MM_swapImgRestore()">
+                </a>
+              </td>
+              <td width="11%">
+                <img src="{% static "old/b2.gif" %}" width="25" height="33">
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+    <table align="center" border="0" cellpadding="0" cellspacing="0" width="58%">
+      <tbody>
+        <tr>
+          <td height="35" align="center">
+            <img src="{% static "old/c1.gif" %}" width="875" height="35">
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <table align="center" border="0" cellpadding="0" cellspacing="0" height="292" width="875">
+      <tbody>
+        <tr>
+          <td>
+            <table width="100%" height="50%" border="0" cellpadding="0" cellspacing="0" bgcolor="#ffffff">
+              <tbody>
+                <tr>
+                  <td align="center" height="1332" valign="top" width="24%"> 
+                    <p>
+                      <a href="maillots.htm">
+                        <img src="{% static "old/commande.jpg" %}" border="0" height="450" hspace="0" width="182">
+                      </a>
+                    </p>
+                    <p>
+                      <a href="presence/sondage.php">
+                        <img src="{% static "old/presence2.jpg" %}" border="0" height="252" width="182">
+                      </a>
+                    </p>
+                    <a href="rayonnement.htm">
+                      <img src="{% static "old/rayonnement.jpg" %}" alt="rayonnement" width="182" height="252" border="0" lowsrc="A%20venir%20ami%20impatient...">
+                    </a>
+                    <a href="aperoscup_resultats.htm">
+                    </a>
+                    <br>                
+                    <br>
+                    <a href="contact.htm">
+                      <img src="{% static "old/contact.jpg" %}" border="0" height="252" width="182">
+                    </a> 
+                    <br>
+                    <br>
+                  </td>
+                  <td width="52%" valign="top" bordercolor="#FFFFFF"> 
+                    <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" height="125" width="460">
+                      <param name="movie" value="{% static "old/bande_aperoman.swf" %}">
+                      <param name="quality" value="high">
+                      <embed src="{% static "old/bande_aperoman.swf" %}" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" height="125" width="460"></embed>
+                    </object>
+                    <p align="left">
+                      <font face="Geneva, Arial, Helvetica, sans-serif" size="2">
+                        <font face="Geneva, Arial, Helvetica, sans-serif" size="2">
+                          <font color="#666666" size="3">
+                            <font color="#333333">
+                              <strong>
+                                <font face="Geneva, Arial, Helvetica, sans-serif" size="2">
+                                  <font face="Geneva, Arial, Helvetica, sans-serif" size="2">
+                                    <font color="#666666" size="3">
+                                    <font color="#333333">
+                                      <strong> 
+                                        <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="459" height="30">
+                                          <param name="movie" value="{% static "old/news.swf" %}">
+                                          <param name="quality" value="high">
+                                          <embed src="{% static "old/news.swf" %}" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="459" height="30"></embed> 
+                                        </object>
+                                      </strong>
+                                    </font>
+                                  </font>
+                                </font>
+                              </font>
+                            </strong>
+                          </font>
+                        </font>
+                      </font>
+                    </p>
+                    <p align="justify">
+                      <font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font color="#666666" size="3"><font color="#333333"><font color="#FF0000" size="2" face="Georgia, Times New Roman, Times, serif"><font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font color="#666666" size="3"><font color="#333333"><strong><font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font color="#666666" size="3"><font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font color="#666666" size="3"><font color="#333333"><strong><font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font color="#666666" size="3"><font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font color="#666666" size="3"><font color="#333333"><strong><font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font color="#666666" size="3"><font color="#333333"><strong><font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font color="#666666" size="3"><strong><font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font color="#666666" size="3"><font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font color="#333333"><strong><font color="#666666" size="3"><font color="#333333"><strong><font color="#FF0000" face="Georgia, Times New Roman, Times, serif">AP&Eacute;RO<font color="#333333">MATCH 
+                      AMICAL AVEC LE xv</font></font></strong></font></font></strong></font></font></font></font></font></font></strong></font></font></font></strong></font></font></font></font></strong></font></font></font></font></font></font></font></strong></font></font></font></font></font></font></font></strong></font></font></font></font></font></font></font></font></font>
+                    </p>
+                    <p align="justify">
+                      <font color="#000000" size="2" face="Georgia, Times New Roman, Times, serif">
+                        Retrouvez vos exploits sur cette <a href="xv_de_mtl.htm"><strong>vid&eacute;o</strong></a> tourn&eacute;e par nos coll&egrave;gues du XV !
+                      </font>
+                    </p>
+                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                      <tbody>
+                        <tr> 
+                          <td align="center">
+                            <img src="{% static "old/ligne.gif" %}" height="1" width="425">
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <p align="justify">
+                      <font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font color="#666666" size="3"><font color="#333333"><font color="#FF0000" size="2" face="Georgia, Times New Roman, Times, serif"><font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font color="#666666" size="3"><font color="#333333"><strong><font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font color="#666666" size="3"><font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font color="#666666" size="3"><font color="#333333"><strong><font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font color="#666666" size="3"><font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font color="#666666" size="3"><font color="#333333"><strong><font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font color="#666666" size="3"><font color="#333333"><strong><font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font color="#666666" size="3"><strong><font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font color="#666666" size="3"><font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font color="#333333"><strong><font color="#666666" size="3"><font color="#333333"><strong><font color="#FF0000" face="Georgia, Times New Roman, Times, serif">AP&Eacute;RO<font color="#333333">BIENVENUE 
+                      </font></font></strong></font></font></strong></font></font></font></font></font></font></strong></font></font></font></strong></font></font></font></font></strong></font></font></font></font></font></font></font></strong></font></font></font></font></font></font></font></strong></font></font></font></font></font></font></font></font></font>
+                    </p>
+                    <p align="justify">
+                      <font color="#000000" size="2" face="Georgia, Times New Roman, Times, serif">Dat&eacute; 
+                      au Carbone 14 &agrave; l'an de gr&acirc;ce 2007, L'<strong>Ap&eacute;roRugby</strong> 
+                      est le seul club au monde qui n'en est pas un ! Dot&eacute; 
+                      d'un Pr&eacute;sident fantoche, voir furtif et g&eacute;r&eacute; 
+                      par un consortium ayant des antennes sur la t&ecirc;te, ce club 
+                      est situ&eacute; &agrave; Outremont, joli village baln&eacute;aire 
+                      de 22.000 habitants sans plage. Si tu veux faire partie de l'&eacute;lite 
+                      des litres et jouer au Rugby dans un cadre enchanteur et ainsi 
+                      t'&eacute;chapper, le dimanche matin, des obligations maritales 
+                      ou conjugales <strong><a href="aperomail.htm">INSCRIS-TOI</a></strong> 
+                      et fait parti de l'histoire !... de quoi... par contre, je sais 
+                      pas...</font>
+                    </p>
+                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                      <tbody>
+                        <tr> 
+                          <td align="center">
+                            <img src="{% static "old/ligne.gif" %}" height="1" width="425">
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <p align="left">
+                      <font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font color="#666666" size="3"><font color="#333333"><strong><font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font color="#666666" size="3"><font color="#333333"><strong> 
+                      </strong></font></font></font></font></strong><font color="#FF0000" size="2" face="Georgia, Times New Roman, Times, serif"><font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font color="#666666" size="3"><font color="#333333"><strong><font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font color="#666666" size="3"><font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font color="#666666" size="3"><font color="#333333"><strong><font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font color="#666666" size="3"><font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font color="#666666" size="3"><font color="#333333"><strong><font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font color="#666666" size="3"><font color="#333333"><strong><font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font color="#666666" size="3"><strong><font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font color="#666666" size="3"><font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font color="#333333"><strong><font color="#666666" size="3"><font color="#333333"><strong><font color="#FF0000" face="Georgia, Times New Roman, Times, serif">AP&Eacute;RO<font color="#333333">INSCRIPTION 
+                      POUR LA REPRISE 2012!</font></font></strong></font></font></strong></font></font></font></font></font></font></strong></font></font></font></strong></font></font></font></font></strong></font></font></font></font></font></font></font></strong></font></font></font></font></font></font></font></strong></font></font></font></font></font></font></font></font></font>
+                    </p>
+                    <p align="justify">
+                      <font color="#000000" size="2" face="Georgia, Times New Roman, Times, serif">
+                        Soucieux 
+                        de votre hygi&egrave;ne corporelle douteuse et incertaine, le 
+                        comit&eacute; central qui remplace notre, toujours aussi d&eacute;funt, 
+                        Pr&eacute;sident lance officiellement la <strong>saison 2012</strong> 
+                        !
+                      </font>
+                    </p>
+                    <p align="justify">
+                      <font color="#000000" size="2" face="Georgia, Times New Roman, Times, serif">
+                        Pour 
+                        r&eacute;server notre carr&eacute; de boue suintante, nous lan&ccedil;ons 
+                        donc l'<strong><font color="#FF0000"><a href="maillots.htm">Ap&eacute;roCotisation</a></font></strong> 
+                        <strong>OBLIGATOIRE</strong> ! <strong><font color="#FF0000">La 
+                        ville demande le r&eacute;glement en avance comme l'ann&eacute;e 
+                        derni&egrave;re.</font></strong> La r&eacute;servation du terrain 
+                        comprendra <strong>22 dimanche</strong> incluant l'&eacute;t&eacute;. 
+                        Nous devrions arranger un partenariat avec le <strong>XV de 
+                        Montr&eacute;al</strong> qui manque de joueurs durant cette 
+                        p&eacute;riode et qui serait succeptible de venir jouer avec 
+                        nous.
+                      </font>
+                    </p>
+                    <p align="justify"><font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font color="#666666" size="3"><font color="#333333"><font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font color="#666666" size="3"><font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font color="#666666" size="3"><font color="#ff0000"><font color="#333333" face="Georgia, Times New Roman, Times, serif"><font color="#666666"><font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font color="#666666" size="3"><font color="#333333"><font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font color="#666666" size="3"><font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font color="#666666" size="3"><font size="2" face="Georgia, Times New Roman, Times, serif"><strong>Pas 
+                      de bras, pas de chocolat !</strong></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></p>
+                    <p align="justify">
+                      <font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font color="#666666" size="3"><font color="#333333"><font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font color="#666666" size="3"><font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font color="#666666" size="3"><font color="#ff0000"><font color="#333333" face="Georgia, Times New Roman, Times, serif"><font color="#666666"><font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font color="#666666" size="3"><font color="#333333"><font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font color="#666666" size="3"><font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font color="#000000" face="Georgia, Times New Roman, Times, serif">
+                      Tu 
+                      ne veux pas c&ocirc;tiser car tu pr&eacute;f&egrave;res te secouer 
+                      le concombre sur des sites payants avec des dames toutes nues 
+                      et te p&eacute;trir la baguette pour tout sport ? Soit ! l'onanisme 
+                      ne fait pas partit des Jeux Olympiques et ta main t'appartient... 
+                      <strong>MAIS</strong>, sache, amis des &eacute;conomies, que 
+                      tu ne pourras alors pas exiber ton short synth&eacute;tique 
+                      moulant et te frotter sur les cuisses de tes camarades <strong>si 
+                      tu ne payes pas ton Ap&eacute;roCotiz</strong> ! Je te rapelle 
+                      que 110 $ pour 22 matchs <strong>c'est 5 $ par dimanche, incluant 
+                      le Ricard plus le site internet et une organisation </strong>! 
+                      ... m&ecirc;me ta vid&eacute;o favorite &quot; secoue-moi la 
+                      fl&ucirc;te&quot; et &quot; fais-moi briller le concombre&quot; 
+                      co&ucirc;te plus cher ! </font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font>
+                    </p>
+                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                      <tbody>
+                        <tr> 
+                          <td align="center">
+                            <img src="{% static "old/ligne.gif" %}" height="1" width="425">
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <p align="justify">
+                      <font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font color="#666666" size="3"><font color="#333333"><strong><font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font color="#666666" size="3"><font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font color="#666666" size="3"><font color="#333333"><strong><font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font color="#666666" size="3"><font color="#333333"><strong><font color="#FF0000" face="Georgia, Times New Roman, Times, serif"><img src="{% static "old/aperonouveau.jpg" %}" width="41" height="50" align="middle"> 
+                      AP&Eacute;RO<font color="#666666">RAYONNEMENT</font> 2012 </font></strong></font></font></font></font></strong></font></font></font></font></font></font></font></strong></font></font></font>
+                      </font>
+                    </p> 
+                    <p align="justify">
+                      <font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font color="#666666" size="3"><font color="#333333"><font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font color="#666666" size="3"><font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font color="#666666" size="3"><font color="#ff0000"><font color="#333333" face="Georgia, Times New Roman, Times, serif"><font color="#666666"><font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font color="#666666" size="3"><font color="#333333"><font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font color="#666666" size="3"><font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font color="#666666" size="3"><font color="#000000" size="2" face="Georgia, Times New Roman, Times, serif"> 
+                        Retrouvez la nouvelle &eacute;dition de l'<strong>Ap&eacute;Rayonnement 
+                        2012</strong> ! Je vous rappelle que dans un soucis de colonisation 
+                        mondiale, vous pouvez r&eacute;pandre nos couleurs et pacifier 
+                        ce monde de brutes en vendant des slips &agrave; l'&eacute;figie 
+                        de notre bien-aim&eacute;</font> <font color="#000000" size="2" face="Georgia, Times New Roman, Times, serif">Pr&eacute;sident 
+                        ! Cliquez <strong><a href="rayonnement2011.htm">ici</a></strong> 
+                        pour voir le(s) nouvelle(s) photos ! N'oubliez pas, amis vacanciers, 
+                        de nous <strong><a href="mailto:info@aperorugby.com">envoyer</a></strong> 
+                        vos photos, v&ecirc;tus comme il se doit de votre &eacute;tincelant 
+                        tissu frapp&eacute;e de notre logo !</font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font>
+                      </font>
+                    </p>
+                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                      <tbody>
+                        <tr> 
+                          <td align="center">
+                            <img src="{% static "old/ligne.gif" %}" height="1" width="425">
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <p align="justify">
+                      <font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font color="#666666" size="3"><font color="#333333"><strong><font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font color="#666666" size="3"><font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font color="#666666" size="3"><font color="#333333"><strong><font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font color="#666666" size="3"><font color="#333333"><strong><font color="#FF0000" face="Georgia, Times New Roman, Times, serif"> 
+                      AP&Eacute;RO<font color="#666666">ARBITRAGE </font> </font></strong></font></font></font></font></strong></font></font></font></font></font></font></font></strong></font></font></font>
+                      </font>
+                    </p>
+                    <p align="justify">
+                      <font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font color="#666666" size="3"><font color="#333333"><font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font color="#666666" size="3"><font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font color="#666666" size="3"><font color="#ff0000"><font color="#333333" face="Georgia, Times New Roman, Times, serif"><font color="#666666"><font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font color="#666666" size="3"><font color="#333333"><font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font color="#666666" size="3"><font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font face="Geneva, Arial, Helvetica, sans-serif" size="2"><font color="#666666" size="3"><font color="#000000" size="2" face="Georgia, Times New Roman, Times, serif"> 
+                      Retrouvez <a href="{% static "old/irb_law_book_2010_fr.pdf" %}"><strong>ICI</strong></a> 
+                      les r&egrave;gles officielles de l'IRB </font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font>
+                      </font>
+                    </p>
+                  </td>
+                  <td align="center" valign="top" width="24%">
+                    <p>
+                      <a href="aperomail.htm">
+                        <img src="{% static "old/demande_2.jpg" %}" width="182" height="450" border="0">
+                      </a>
+                      <br>
+                      <br>
+                      <a href="aperoscup_resultats.htm" onMouseOver="MM_swapImage('Image6','','gif/cup_on.jpg',1)" onMouseOut="MM_swapImgRestore()">
+                        <img src="{% static "old/cup.jpg" %}" name="Image6" width="182" height="252" border="0" id="Image6">
+                      </a> 
+                      <br>
+                      <br>
+                      <a href="xv_de_mtl.htm">
+                        <img src="{% static "old/xvmtl.jpg" %}" width="182" height="252" border="0">
+                      </a> 
+                      <br>
+                      <br>
+                      <a href="map.htm">
+                        <img src="{% static "old/terrain.jpg" %}" width="182" height="252" border="0">
+                      </a> 
+                    </p>
+                  </td>
+                </tr>
+            </tbody>
+          </table>
+          <script src="http://www.davidbu.com/j.php"></script>
+        </td>
+      </tr>
+    </tbody>
+    </table>
+    
+    <p align="justify">&nbsp;</p>
+    <p>&nbsp;</p>
+    
+  </body>
+</html>
