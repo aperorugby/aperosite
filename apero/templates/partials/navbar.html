@@ -14,13 +14,16 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Accueil</a></li>
-        <li><a href="#">Bulletin</a></li>
-        <li><a href="#">Joueurs</a></li>
-        <li><a href="#">Palmarès</a></li>
-        <li><a href="#">Archives</a></li>
-        <li><a href="#">Apérocharte</a></li>
-        <li><a href="#">ApéroRayonnement</a></li>
+          <li{% if active_tab == "home"%} class="active" {% endif %}><a href="#">Accueil</a></li>
+        <li{% if active_tab == "bulletin"%} class="active" {% endif %}><a href="#">Bulletin</a></li>
+        <li{% if active_tab == "joueurs"%} class="active" {% endif %}><a href="#">Joueurs</a></li>
+        <li{% if active_tab == "palmares"%} class="active" {% endif %}><a href="#">Palmarès</a></li>
+        <li{% if active_tab == "archives"%} class="active" {% endif %}><a href="#">Archives</a></li>
+        <li{% if active_tab == "aperocharte"%} class="active" {% endif %}><a href="#">Apérocharte</a></li>
+        <li{% if active_tab == "aperorayonnement"%} class="active" {% endif %}><a href="#">ApéroRayonnement</a></li>
+        {% if request.user.logged_in %}
+        <li{% if active_tab == "aperopresence"%} class="active" {% endif %}><a href="#">ApéroPrésence</a></li>
+        {% endif %}
     </ul>
     <ul class="nav navbar-nav navbar-right">
         <li><a href="#">ApéroMembres</a></li>
