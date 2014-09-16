@@ -1,8 +1,9 @@
-<html>
-<head>
-  <title>Apéro Rugby - le club qu'il vous faut!</title>
-</head>
-<body>
-  <h1>ApéroRugby</h1>
-</body>
-</html>
+{% extends "base.html" %}
+
+{% block title %}
+Accueil | {{ block.super }}
+{% endblock %}
+
+{% block content %}
+<h1>Bienvenue sur le site de l'apéro rugby</h1>
+{% endblock %}
