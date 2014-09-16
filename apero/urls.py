@@ -7,4 +7,7 @@ urlpatterns = patterns('',
     #url(r'^$', 'apero.views.home', name='home'),
     url(r'^admin/', include(admin.site.urls)),
     url(r'^', include('apero.home.urls')),
+    url(r'^aperomembres/', include('apero.membersection.urls',
+                                   namespace='aperomembre')),
+
 )
