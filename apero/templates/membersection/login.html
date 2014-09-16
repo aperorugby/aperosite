@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% load i18n %}
+
+{% block title %}
+Connexion | {{ block.super }}
+{% endblock %}
+
+
+{% block content %}
+    <div class="row-fluid">
+        <div class="login_form">
+            <form id="login_form" action="{{ request.get_full_path }}" method="post" class="well" >
+                <h2>{% trans 'Log In' %}</h2>
+                {% csrf_token %}
+                {% include "partials/form_fields.html" %}
+                <p><a href="{% url 'aperomembre:password-reset' %}">{% trans "I've forgotten my password" %}</a></p>
+                <button name="login_submit" type="submit" value="Log In" class="btn btn-large btn-primary js-disable-on-click" data-loading-text="{% trans "Logging in..." %}">{% trans 'Log In' %}</button>
+            </form>
+        </div>
+    </div>
+{% endblock %}
