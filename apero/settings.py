@@ -28,6 +28,8 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'apero.old',
+    'apero.home',
+    'apero.membersection',
 )
 
 MIDDLEWARE_CLASSES = (
