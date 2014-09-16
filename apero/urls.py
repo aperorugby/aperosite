@@ -6,5 +6,5 @@ admin.autodiscover()
 urlpatterns = patterns('',
     #url(r'^$', 'apero.views.home', name='home'),
     url(r'^admin/', include(admin.site.urls)),
-    url(r'^', include('apero.old.urls')),
+    url(r'^', include('apero.home.urls')),
 )
